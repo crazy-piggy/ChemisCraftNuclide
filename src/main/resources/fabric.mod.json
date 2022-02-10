@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "chemiscraftn",
+  "version": "1.0",
+
+  "name": "ChemisCraftNuclide",
+  "description": "Added nuclides for ChemisCraft.",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://crazy-piggy.github.io/ChemisCraft",
+    "sources": "https://github.com/crazy-piggy/ChemisCraftNuclide"
+  },
+
+  "license": "MIT",
+  "icon": "assets/chemiscraftn/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.chemiscraftn.Main"
+    ]
+  },
+  "mixins": [
+    "chemiscraftn.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
